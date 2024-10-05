@@ -11,3 +11,7 @@ function greetwithgender(user){
     }
     console.log("Hii" + greeting + user.name + "your age is "+ user.age);
 }
+
+let user = {
+    
+}
