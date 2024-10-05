@@ -15,5 +15,5 @@ function greetwithgender(user){
 let user = {
     name: "Hritik",
     age: 21,
-    gender:male
+    gender:"male"
 }
