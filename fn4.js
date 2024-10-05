@@ -3,5 +3,7 @@
 
 function greetwithgender(user){
     let greeting ="";
-    if (user.gender)
+    if (user.gender === "male"){
+        greeeting = "Mr";
+    }
 }
