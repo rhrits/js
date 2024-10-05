@@ -4,12 +4,12 @@
 function greetwithgender(user){
     let greeting ="";
     if (user.gender === "male"){
-        greeeting = "Mr";
+        greeting = "Mr";
     }
     else if(user.gender === "female"){
         greeting ="Mrs";
     }
-    console.log("Hii" + greeting + user.name + "your age is "+ user.age);
+    console.log("Hii " + greeting +" "+ user.name + " your age is "+ user.age);
 }
 
 let user = {
@@ -17,3 +17,7 @@ let user = {
     age: 21,
     gender:"male"
 }
+
+
+
+greetwithgender(user);
