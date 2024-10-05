@@ -4,7 +4,7 @@ function greet(user){
 
 let user = {
     name: "Hritik",
-    age: 23
+    age: 22
 }
 
 greet(user);
