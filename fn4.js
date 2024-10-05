@@ -6,4 +6,7 @@ function greetwithgender(user){
     if (user.gender === "male"){
         greeeting = "Mr";
     }
+    else if(user.gender === "female"){
+        
+    }
 }
