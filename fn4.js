@@ -18,9 +18,4 @@ let user = {
     gender:"male"
 }
 
-let user2 ={
-    name: "Shree"
-}
-
-
 greetwithgender(user);
